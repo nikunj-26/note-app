@@ -6,7 +6,7 @@ function Header() {
     <header>
       <h1>
         <HighlightIcon />
-        Notes in {process.env.NODE_ENV}
+        Notes in {process.env.REACT_APP_SECRET_CODE}
       </h1>
     </header>
   );
