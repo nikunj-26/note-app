@@ -4,7 +4,9 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer>
-      <p>Copyright ⓒ {year}</p>
+      <p>
+        Copyright ⓒ {year} {process.env.REACT_APP_NOT_SECRET_CODE}
+      </p>
     </footer>
   );
 }

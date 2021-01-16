@@ -6,7 +6,7 @@ function Header() {
     <header>
       <h1>
         <HighlightIcon />
-        Notes
+        Notes in {process.env.NODE_ENV}
       </h1>
     </header>
   );
