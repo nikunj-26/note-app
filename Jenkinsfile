@@ -9,7 +9,7 @@ pipeline {
                 bat 'npm run build'
             }
         }
-        stage('Docker Stuff') {
+        stage('Docker Build and Deploy') {
             steps {
                 bat 'docker pull httpd'
                 bat 'docker build -t notes-app .'
